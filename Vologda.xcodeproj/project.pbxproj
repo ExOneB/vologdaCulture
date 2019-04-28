@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76C2E9056F3E03FB088F4F86 /* Pods_Vologda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF2BC691B63434748B071F7 /* Pods_Vologda.framework */; };
+		B55B476D2271CB290060D0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B476C2271CB290060D0EC /* AppDelegate.swift */; };
+		B55B47722271CB290060D0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55B47702271CB290060D0EC /* Main.storyboard */; };
+		B55B47742271CB2B0060D0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55B47732271CB2B0060D0EC /* Assets.xcassets */; };
+		B55B47772271CB2B0060D0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55B47752271CB2B0060D0EC /* LaunchScreen.storyboard */; };
+		B55B47822271CB2B0060D0EC /* VologdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B47812271CB2B0060D0EC /* VologdaTests.swift */; };
+		B55B478D2271CB2B0060D0EC /* VologdaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B478C2271CB2B0060D0EC /* VologdaUITests.swift */; };
+		B55B479F2272175F0060D0EC /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B479E2272175F0060D0EC /* MainTableViewController.swift */; };
+		B55B47A1227223BF0060D0EC /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B47A0227223BF0060D0EC /* MainTableViewCell.swift */; };
+		B55B47A6227224620060D0EC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B47A5227224620060D0EC /* Reachability.swift */; };
+		B55B47AA22722AC80060D0EC /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B47A922722AC80060D0EC /* settings.swift */; };
+		B55B47AD2273A56D0060D0EC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B47AC2273A56D0060D0EC /* DetailViewController.swift */; };
+		B55B47B122742A650060D0EC /* mapw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B47B022742A650060D0EC /* mapw.swift */; };
+		B5E059142274D472008AA69F /* Culture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E059132274D472008AA69F /* Culture.swift */; };
+		D4B1822A39BE73F3FA8A672B /* Pods_VologdaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE77644653AB191E91E8C605 /* Pods_VologdaTests.framework */; };
+		F74C793EAF5200686BC6BDD9 /* Pods_VologdaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADAC26E436F2D2D897D95EC /* Pods_VologdaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55B477E2271CB2B0060D0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55B47612271CB290060D0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55B47682271CB290060D0EC;
+			remoteInfo = Vologda;
+		};
+		B55B47892271CB2B0060D0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55B47612271CB290060D0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55B47682271CB290060D0EC;
+			remoteInfo = Vologda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADAC26E436F2D2D897D95EC /* Pods_VologdaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VologdaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472799D2EFB056663E422E8 /* Pods-VologdaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VologdaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VologdaUITests/Pods-VologdaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F6D7F2248BA4F87BCE625FB /* Pods-Vologda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vologda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vologda/Pods-Vologda.debug.xcconfig"; sourceTree = "<group>"; };
+		3A37E1733C08DD899B453A67 /* Pods-VologdaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VologdaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VologdaUITests/Pods-VologdaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BD6E8CB73EC54A47DEE818B /* Pods-VologdaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VologdaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VologdaTests/Pods-VologdaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4EFE68D48157E5FE1F13DBB /* Pods-Vologda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vologda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vologda/Pods-Vologda.release.xcconfig"; sourceTree = "<group>"; };
+		ABF2BC691B63434748B071F7 /* Pods_Vologda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vologda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55B47692271CB290060D0EC /* Vologda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vologda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55B476C2271CB290060D0EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B55B47712271CB290060D0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55B47732271CB2B0060D0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55B47762271CB2B0060D0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55B47782271CB2B0060D0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55B477D2271CB2B0060D0EC /* VologdaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VologdaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55B47812271CB2B0060D0EC /* VologdaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VologdaTests.swift; sourceTree = "<group>"; };
+		B55B47832271CB2B0060D0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55B47882271CB2B0060D0EC /* VologdaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VologdaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55B478C2271CB2B0060D0EC /* VologdaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VologdaUITests.swift; sourceTree = "<group>"; };
+		B55B478E2271CB2B0060D0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55B479E2272175F0060D0EC /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		B55B47A0227223BF0060D0EC /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		B55B47A5227224620060D0EC /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B55B47A922722AC80060D0EC /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		B55B47AC2273A56D0060D0EC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B55B47B022742A650060D0EC /* mapw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapw.swift; sourceTree = "<group>"; };
+		B5E059132274D472008AA69F /* Culture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Culture.swift; sourceTree = "<group>"; };
+		EE79876463C240C343CFFC6E /* Pods-VologdaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VologdaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VologdaTests/Pods-VologdaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE77644653AB191E91E8C605 /* Pods_VologdaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VologdaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55B47662271CB290060D0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C2E9056F3E03FB088F4F86 /* Pods_Vologda.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55B477A2271CB2B0060D0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B1822A39BE73F3FA8A672B /* Pods_VologdaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55B47852271CB2B0060D0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74C793EAF5200686BC6BDD9 /* Pods_VologdaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362F76CC94F66E32FB34C9BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6D7F2248BA4F87BCE625FB /* Pods-Vologda.debug.xcconfig */,
+				A4EFE68D48157E5FE1F13DBB /* Pods-Vologda.release.xcconfig */,
+				EE79876463C240C343CFFC6E /* Pods-VologdaTests.debug.xcconfig */,
+				6BD6E8CB73EC54A47DEE818B /* Pods-VologdaTests.release.xcconfig */,
+				3A37E1733C08DD899B453A67 /* Pods-VologdaUITests.debug.xcconfig */,
+				1472799D2EFB056663E422E8 /* Pods-VologdaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B55B47602271CB290060D0EC = {
+			isa = PBXGroup;
+			children = (
+				B55B476B2271CB290060D0EC /* Vologda */,
+				B55B47802271CB2B0060D0EC /* VologdaTests */,
+				B55B478B2271CB2B0060D0EC /* VologdaUITests */,
+				B55B476A2271CB290060D0EC /* Products */,
+				362F76CC94F66E32FB34C9BA /* Pods */,
+				C1CE67A2DDCE7A4C676B3A67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B55B476A2271CB290060D0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55B47692271CB290060D0EC /* Vologda.app */,
+				B55B477D2271CB2B0060D0EC /* VologdaTests.xctest */,
+				B55B47882271CB2B0060D0EC /* VologdaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55B476B2271CB290060D0EC /* Vologda */ = {
+			isa = PBXGroup;
+			children = (
+				B55B47A4227224460060D0EC /* Conf */,
+				B55B47A32272240D0060D0EC /* Main */,
+				B55B47A2227224040060D0EC /* Cell */,
+				B55B476C2271CB290060D0EC /* AppDelegate.swift */,
+				B55B47702271CB290060D0EC /* Main.storyboard */,
+				B55B47732271CB2B0060D0EC /* Assets.xcassets */,
+				B55B47752271CB2B0060D0EC /* LaunchScreen.storyboard */,
+				B55B47782271CB2B0060D0EC /* Info.plist */,
+			);
+			path = Vologda;
+			sourceTree = "<group>";
+		};
+		B55B47802271CB2B0060D0EC /* VologdaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55B47812271CB2B0060D0EC /* VologdaTests.swift */,
+				B55B47832271CB2B0060D0EC /* Info.plist */,
+			);
+			path = VologdaTests;
+			sourceTree = "<group>";
+		};
+		B55B478B2271CB2B0060D0EC /* VologdaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B55B478C2271CB2B0060D0EC /* VologdaUITests.swift */,
+				B55B478E2271CB2B0060D0EC /* Info.plist */,
+			);
+			path = VologdaUITests;
+			sourceTree = "<group>";
+		};
+		B55B47A2227224040060D0EC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B55B47A0227223BF0060D0EC /* MainTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B55B47A32272240D0060D0EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B55B479E2272175F0060D0EC /* MainTableViewController.swift */,
+				B55B47AC2273A56D0060D0EC /* DetailViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B55B47A4227224460060D0EC /* Conf */ = {
+			isa = PBXGroup;
+			children = (
+				B55B47A5227224620060D0EC /* Reachability.swift */,
+				B55B47A922722AC80060D0EC /* settings.swift */,
+				B55B47B022742A650060D0EC /* mapw.swift */,
+				B5E059132274D472008AA69F /* Culture.swift */,
+			);
+			path = Conf;
+			sourceTree = "<group>";
+		};
+		C1CE67A2DDCE7A4C676B3A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABF2BC691B63434748B071F7 /* Pods_Vologda.framework */,
+				FE77644653AB191E91E8C605 /* Pods_VologdaTests.framework */,
+				0ADAC26E436F2D2D897D95EC /* Pods_VologdaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55B47682271CB290060D0EC /* Vologda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55B47912271CB2B0060D0EC /* Build configuration list for PBXNativeTarget "Vologda" */;
+			buildPhases = (
+				1459D2E9A4E17314AC6DECEB /* [CP] Check Pods Manifest.lock */,
+				B55B47652271CB290060D0EC /* Sources */,
+				B55B47662271CB290060D0EC /* Frameworks */,
+				B55B47672271CB290060D0EC /* Resources */,
+				E24B3EBC2F619056E0D165A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vologda;
+			productName = Vologda;
+			productReference = B55B47692271CB290060D0EC /* Vologda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55B477C2271CB2B0060D0EC /* VologdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55B47942271CB2B0060D0EC /* Build configuration list for PBXNativeTarget "VologdaTests" */;
+			buildPhases = (
+				47D5FA775C9504686999F659 /* [CP] Check Pods Manifest.lock */,
+				B55B47792271CB2B0060D0EC /* Sources */,
+				B55B477A2271CB2B0060D0EC /* Frameworks */,
+				B55B477B2271CB2B0060D0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55B477F2271CB2B0060D0EC /* PBXTargetDependency */,
+			);
+			name = VologdaTests;
+			productName = VologdaTests;
+			productReference = B55B477D2271CB2B0060D0EC /* VologdaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55B47872271CB2B0060D0EC /* VologdaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55B47972271CB2B0060D0EC /* Build configuration list for PBXNativeTarget "VologdaUITests" */;
+			buildPhases = (
+				7CEBE830BA03BECC3EEDF94F /* [CP] Check Pods Manifest.lock */,
+				B55B47842271CB2B0060D0EC /* Sources */,
+				B55B47852271CB2B0060D0EC /* Frameworks */,
+				B55B47862271CB2B0060D0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55B478A2271CB2B0060D0EC /* PBXTargetDependency */,
+			);
+			name = VologdaUITests;
+			productName = VologdaUITests;
+			productReference = B55B47882271CB2B0060D0EC /* VologdaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55B47612271CB290060D0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Maxim Pyatovskiy";
+				TargetAttributes = {
+					B55B47682271CB290060D0EC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B55B477C2271CB2B0060D0EC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B55B47682271CB290060D0EC;
+					};
+					B55B47872271CB2B0060D0EC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B55B47682271CB290060D0EC;
+					};
+				};
+			};
+			buildConfigurationList = B55B47642271CB290060D0EC /* Build configuration list for PBXProject "Vologda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55B47602271CB290060D0EC;
+			productRefGroup = B55B476A2271CB290060D0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55B47682271CB290060D0EC /* Vologda */,
+				B55B477C2271CB2B0060D0EC /* VologdaTests */,
+				B55B47872271CB2B0060D0EC /* VologdaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55B47672271CB290060D0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55B47772271CB2B0060D0EC /* LaunchScreen.storyboard in Resources */,
+				B55B47742271CB2B0060D0EC /* Assets.xcassets in Resources */,
+				B55B47722271CB290060D0EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55B477B2271CB2B0060D0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55B47862271CB2B0060D0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1459D2E9A4E17314AC6DECEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vologda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D5FA775C9504686999F659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VologdaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CEBE830BA03BECC3EEDF94F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VologdaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24B3EBC2F619056E0D165A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vologda/Pods-Vologda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vologda/Pods-Vologda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55B47652271CB290060D0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55B479F2272175F0060D0EC /* MainTableViewController.swift in Sources */,
+				B55B47A1227223BF0060D0EC /* MainTableViewCell.swift in Sources */,
+				B55B47B122742A650060D0EC /* mapw.swift in Sources */,
+				B55B47A6227224620060D0EC /* Reachability.swift in Sources */,
+				B5E059142274D472008AA69F /* Culture.swift in Sources */,
+				B55B47AD2273A56D0060D0EC /* DetailViewController.swift in Sources */,
+				B55B476D2271CB290060D0EC /* AppDelegate.swift in Sources */,
+				B55B47AA22722AC80060D0EC /* settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55B47792271CB2B0060D0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55B47822271CB2B0060D0EC /* VologdaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55B47842271CB2B0060D0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55B478D2271CB2B0060D0EC /* VologdaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55B477F2271CB2B0060D0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55B47682271CB290060D0EC /* Vologda */;
+			targetProxy = B55B477E2271CB2B0060D0EC /* PBXContainerItemProxy */;
+		};
+		B55B478A2271CB2B0060D0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55B47682271CB290060D0EC /* Vologda */;
+			targetProxy = B55B47892271CB2B0060D0EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55B47702271CB290060D0EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55B47712271CB290060D0EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55B47752271CB2B0060D0EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55B47762271CB2B0060D0EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55B478F2271CB2B0060D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B55B47902271CB2B0060D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55B47922271CB2B0060D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6D7F2248BA4F87BCE625FB /* Pods-Vologda.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76SUW434M;
+				INFOPLIST_FILE = Vologda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ExOneB.Vologda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55B47932271CB2B0060D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EFE68D48157E5FE1F13DBB /* Pods-Vologda.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76SUW434M;
+				INFOPLIST_FILE = Vologda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ExOneB.Vologda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B55B47952271CB2B0060D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE79876463C240C343CFFC6E /* Pods-VologdaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76SUW434M;
+				INFOPLIST_FILE = VologdaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ExOneB.VologdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vologda.app/Vologda";
+			};
+			name = Debug;
+		};
+		B55B47962271CB2B0060D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD6E8CB73EC54A47DEE818B /* Pods-VologdaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76SUW434M;
+				INFOPLIST_FILE = VologdaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ExOneB.VologdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vologda.app/Vologda";
+			};
+			name = Release;
+		};
+		B55B47982271CB2B0060D0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A37E1733C08DD899B453A67 /* Pods-VologdaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76SUW434M;
+				INFOPLIST_FILE = VologdaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ExOneB.VologdaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vologda;
+			};
+			name = Debug;
+		};
+		B55B47992271CB2B0060D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1472799D2EFB056663E422E8 /* Pods-VologdaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L76SUW434M;
+				INFOPLIST_FILE = VologdaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ExOneB.VologdaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vologda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55B47642271CB290060D0EC /* Build configuration list for PBXProject "Vologda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55B478F2271CB2B0060D0EC /* Debug */,
+				B55B47902271CB2B0060D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55B47912271CB2B0060D0EC /* Build configuration list for PBXNativeTarget "Vologda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55B47922271CB2B0060D0EC /* Debug */,
+				B55B47932271CB2B0060D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55B47942271CB2B0060D0EC /* Build configuration list for PBXNativeTarget "VologdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55B47952271CB2B0060D0EC /* Debug */,
+				B55B47962271CB2B0060D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55B47972271CB2B0060D0EC /* Build configuration list for PBXNativeTarget "VologdaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55B47982271CB2B0060D0EC /* Debug */,
+				B55B47992271CB2B0060D0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55B47612271CB290060D0EC /* Project object */;
+}
